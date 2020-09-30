@@ -6,7 +6,7 @@ Event detection (ED), a key subtask of information extraction, aims to recognize
 
 ![Performance of EEGCN](https://github.com/cuishiyao96/eegcned/blob/master/fig/performance.png?raw=true)
 
-You can find the paper [here]()
+You can find the paper [here](https://arxiv.org/abs/2002.10757)
 
 
 See below for an overview of the model architecture:
