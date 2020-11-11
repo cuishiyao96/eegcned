@@ -6,7 +6,7 @@ Event detection (ED), a key subtask of information extraction, aims to recognize
 
 ![Performance of EEGCN](https://github.com/cuishiyao96/eegcned/blob/master/fig/performance.png?raw=true)
 
-You can find the paper [here](https://arxiv.org/abs/2002.10757)
+You can find the paper [here](https://www.aclweb.org/anthology/2020.findings-emnlp.211/)
 
 
 See below for an overview of the model architecture:
@@ -79,8 +79,22 @@ years CNN_ENG_20030612_173004.10 I-1_Time I-2_Time O nmod 16
 
 ## Citation
 ```
-@inproceedings{
-
+@inproceedings{cui-etal-2020-edge,
+    title = "Edge-Enhanced Graph Convolution Networks for Event Detection with Syntactic Relation",
+    author = "Cui, Shiyao  and
+      Yu, Bowen  and
+      Liu, Tingwen  and
+      Zhang, Zhenyu  and
+      Wang, Xuebin  and
+      Shi, Jinqiao",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: Findings",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.findings-emnlp.211",
+    pages = "2329--2339",
+    abstract = "Event detection (ED), a key subtask of information extraction, aims to recognize instances of specific event types in text. Previous studies on the task have verified the effectiveness of integrating syntactic dependency into graph convolutional networks. However, these methods usually ignore dependency label information, which conveys rich and useful linguistic knowledge for ED. In this paper, we propose a novel architecture named Edge-Enhanced Graph Convolution Networks (EE-GCN), which simultaneously exploits syntactic structure and typed dependency label information to perform ED. Specifically, an edge-aware node update module is designed to generate expressive word representations by aggregating syntactically-connected words through specific dependency types. Furthermore, to fully explore clues hidden from dependency edges, a node-aware edge update module is introduced, which refines the relation representations with contextual information.These two modules are complementary to each other and work in a mutual promotion way. We conduct experiments on the widely used ACE2005 dataset and the results show significant improvement over competitive baseline methods.",
 }
 ```
 
